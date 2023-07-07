@@ -1,7 +1,7 @@
 #include "headers.hpp"
 #include "modelling.hpp"
 
-int main()
+/**int main()
 {
     cout << "Hello World!" << endl;
     srand(time(0));
@@ -9,4 +9,4 @@ int main()
     model.print_model_data();
     model.print_cost();
     return 0;
-}
+}**/
