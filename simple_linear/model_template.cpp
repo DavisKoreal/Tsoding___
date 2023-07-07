@@ -2,6 +2,7 @@
 
 Model::Model()
 {
+    srand(time(0));
     coefficient = (rand() % 1000);
         for (auto i = 0; i < 101; i++)
         {

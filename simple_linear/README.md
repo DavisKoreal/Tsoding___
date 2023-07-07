@@ -9,3 +9,6 @@ This is a simple linear regression model using one feature and one label
 @print_cost : function to print cost as the model iterates 
 @print_model_data : print the data that we are trying to fit using the approximatuing function
 @tests : various tests to ensure that all the modules are working withing specified specifications
+
+
+Further README's will be an explanation of what the main function of the agent/program does, not a full verbose description of what are its attributes
