@@ -6,9 +6,7 @@ int main()
     cout << "Creating a model!" << endl;
 
     Model model = Model();
-
-    
-    model.print_model_data();
-    model.print_cost();
+    model.print_data_();
+    model.print_error();
     return 0;
 }
