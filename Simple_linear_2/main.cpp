@@ -2,7 +2,7 @@
 
 int main()
 {
-    agent a;
+    agent a = agent();
     a.work();
     
 
