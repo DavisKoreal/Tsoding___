@@ -29,7 +29,7 @@ double agent::get_cost(double x1, double x2, double (*function) (double))
  */
 void agent::work()
 {
-    while(cost_ > 0.05)
+    while(cost_ > target_cost)
     {
         //get cost of current function
         get_cost();

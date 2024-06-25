@@ -11,6 +11,7 @@ class agent
     Function approximating_function;
     Data dataset;
     double cost_;
+    double target_cost = 0.1;
 
     agent();
     double find_change(double x1, double (*function) (double));
